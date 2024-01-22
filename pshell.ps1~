@@ -11,3 +11,4 @@ choco install vim -y
 choco install sublimetext3 -y
 choco install microsoft-windows-terminal -y
 choco install datagrip -y
+choco install spotify -y
