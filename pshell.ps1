@@ -1,3 +1,4 @@
+Write-Host "=== Creating your development environment! ==="
 $name = Read-Host -Prompt "Enter your full name for git config --global user.name"
 $email = Read-Host -Prompt "Enter your email for git config --global user.email"
 Set-ExecutionPolicy Bypass -Scope Process
@@ -17,3 +18,6 @@ choco install microsoft-windows-terminal -y
 choco install datagrip -y
 choco install spotify -y
 choco install googlechrome -y
+choco install postman -y
+choco install putty -y
+Write-Host "=== Creating your development environment! dd==="
