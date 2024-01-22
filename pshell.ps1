@@ -20,3 +20,5 @@ choco install googlechrome -y
 choco install postman -y
 choco install putty -y
 Write-Host "=== Creating your development environment! ==="
+Write-Host "=== Generating ssh key ==="
+ssh-keygen -b 4096
